@@ -1,0 +1,20 @@
+
+
+@import './reset.css';
+
+.text-center {
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+}
+
+.mint-popup {
+    max-width: 99%;
+    max-height: 99%;
+}
+
+a {
+    color: inherit;
+}

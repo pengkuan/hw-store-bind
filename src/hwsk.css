@@ -1,0 +1,15 @@
+
+
+body {
+  background-color: #f5f5f5;
+}
+
+.mint-button.mint-button--default {
+  background-color: #ea5520;
+  color: #fff;
+}
+
+
+.mint-button.is-disabled {
+  background-color: #cccccc;
+}

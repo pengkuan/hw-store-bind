@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" id="viewport" co
+  ntent="width=device-width, initial-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>回收宝</title>
+
+  <script type="text/javascript">
+
+      (function(doc, win) {
+          var docEl = doc.documentElement,
+              resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+              recalc = function() {
+                  var clientWidth = docEl.clientWidth
+                  if (!clientWidth) return
+                  if (clientWidth >= 740) {
+                      clientWidth = 740
+                  }
+                  if (clientWidth <= 320) {
+                      clientWidth = 320
+                  }
+                  docEl.style.fontSize = 100 * (clientWidth / 320) + 'px'
+              }
+          if (!doc.addEventListener) return
+          win.addEventListener(resizeEvt, recalc, false)
+          doc.addEventListener('DOMContentLoaded', recalc, false)
+      })(document, window)
+  </script>
+
+  <style>
+      body {font-size: 0.14rem;}
+  </style>
+
+
+</head>
+
+<body >
+
+
+<section class="body-bg">
+
+</section>
+
+
+</body>
+
+</html>
